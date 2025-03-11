@@ -23,7 +23,7 @@ O objetivo é criar uma API REST para receber transações e gerar estatísticas
 }
 
 ```
-📷 ![POST /transacao](./img/post.png)
+![POST /transacao](src/img/post.png)
 
 ### Apagar Todas as Transações (DELETE /transacao)
 
@@ -31,7 +31,7 @@ O objetivo é criar uma API REST para receber transações e gerar estatísticas
 ```http
 DELETE /transacao
 ```
-📷 ![DELETE /transacao](./img/delete.png)
+![DELETE /transacao](src/img/delete.png)
 
 ### Obter Estatísticas (GET /estatistica)
 
@@ -45,5 +45,5 @@ DELETE /transacao
     "sum": 600.912
 }
 ```
-📷 ![GET /estatistica](./img/get_estatistica.png)
+![GET /estatistica](src/img/get.png)
 
